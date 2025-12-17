@@ -1,6 +1,6 @@
 from datetime import datetime
 from werkzeug.security import generate_password_hash, check_password_hash
-from app import db
+fro
 
 class PoliceStation(db.Model):
     __tablename__ = "police_stations"
